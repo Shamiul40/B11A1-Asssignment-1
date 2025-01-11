@@ -114,7 +114,7 @@ nav {
     color: #0e0e0e91;
 }
 .card:hover{
-    transform: translateY( -10px);
+    transform: translateY(-10px);
 }
 /* the vision of future div style */
 .vision_of_future{
