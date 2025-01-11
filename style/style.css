@@ -191,7 +191,7 @@ background-color: #f7ebcfd3;
     height: 180px;
     margin: 32px 160px;
     padding: 48px 24px;
-    background-image: url(/images/quote-bg.png);
+    background-image: url("/images/quote-bg.png");
     background-position: 24px 24px;
     background-repeat: no-repeat;
     background-color: #fff;
