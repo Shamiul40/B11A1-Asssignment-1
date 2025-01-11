@@ -23,6 +23,7 @@ nav {
     font-weight:500 ;
     color:#09A15C ;
     transition: 0.5s ease;
+    cursor: pointer;
 }
 .sign_in_btn:hover{
     background-color:#09A15C ;
@@ -73,6 +74,7 @@ nav {
     font-weight: 500;
     border-radius: 8px;
     border-style: none;
+    cursor: pointer;
 }
 /* hero area style */
 .hero_headline h1{
@@ -97,6 +99,7 @@ nav {
     border: 1px silid  #0e0e0e3f;
     border-radius: 8px;
     box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.1);
+    transition: 0.5s ease;
 }
 .card img{
     margin-bottom: 24px;
@@ -109,6 +112,9 @@ nav {
     font-size: 20px;
     padding-top: 24px;
     color: #0e0e0e91;
+}
+.card:hover{
+    transform: translateY(-15px);
 }
 /* the vision of future div style */
 .vision_of_future{
@@ -142,6 +148,10 @@ nav {
     border-radius: 16px;
     padding: 32px;
     box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.1);
+    transition: .5s ease;
+}
+.digital_card:hover{
+    transform: translateY(-15px);
 }
 .digital_card2{
     background-color:#09a15d6b ;
@@ -170,6 +180,7 @@ background-color: #f7ebcfd3;
     color: white;
     font-size: 16px;
     font-weight: 500;
+    cursor: pointer;
 }
 .digital_card_btn:hover{
     background-color:#09A15C;
@@ -294,6 +305,7 @@ select {
     transition: 0.5s ease;
     margin: 20px 0;
     box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.1);
+    cursor: pointer;
     
 }
 .satellite_btn:hover{
@@ -319,7 +331,6 @@ select {
     gap: 24px;
 }
 .taka{
-    
     padding: 40px;
     background-color: #fff;
     box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.1);
@@ -327,10 +338,10 @@ select {
     border-style: none;
     transition: 0.5s ease;
     cursor: pointer;
-
 }
 
 .taka:hover{
+    transform: translateY(-10px);
     background-color: #C6E4D6;
 }
 .active {
@@ -362,6 +373,7 @@ select {
     transition: 0.5s ease;
     box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.1);
     font-weight: 500;
+    cursor: pointer;
 }
 .donate_btn:hover{
     background-color: #5490F5;  
@@ -410,7 +422,8 @@ select {
      font-size: 16px;
      transition: 0.5s ease;
      box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.1);
-     font-weight: 500;   
+     font-weight: 500;
+     cursor: pointer;  
 }
 .subcribe_btn:hover{
     background-color: #ffffff;
