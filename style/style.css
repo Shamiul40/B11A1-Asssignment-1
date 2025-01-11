@@ -339,9 +339,6 @@ select {
 .input_section{
     display: flex;
     justify-content: center;
-
-    
-  
 }
 .input_section input[type="text"]{
    
