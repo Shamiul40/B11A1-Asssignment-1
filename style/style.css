@@ -143,6 +143,12 @@ nav {
     padding: 32px;
     box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.1);
 }
+.digital_card2{
+    background-color:#09a15d6e ;
+}
+.digital_card3{
+background-color: #F7EBCF;
+}
 .digital_card h1{
     margin: 32px 0;
     font-size: 25px;
@@ -325,6 +331,9 @@ select {
 }
 
 .taka:hover{
+    background-color: #C6E4D6;
+}
+.active{
     background-color: #C6E4D6;
 }
 .input_section{
